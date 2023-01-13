@@ -1,8 +1,8 @@
 [workspace]
 
-members = ["backend", "frontend"]
+members = ["app"]
 
-resolver = "2" # Important! wgpu/Bevy needs this!
+# resolver = "2" # Important! wgpu/Bevy needs this!
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
